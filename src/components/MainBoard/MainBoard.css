@@ -1,0 +1,12 @@
+.artboard {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.artboard_box {
+  height: 500px;
+  width: 1200px;
+  border-radius: 30px;
+  background-color: #eefbff;
+}
