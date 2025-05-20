@@ -1,6 +1,5 @@
 import React from 'react';
 import { Drawer } from '@mui/material';
-import { useThemeContext } from '../../context/ThemeContext';
 
 interface SideDrawerProps {
   open: boolean;
@@ -9,7 +8,6 @@ interface SideDrawerProps {
 }
 
 export const SideDrawer: React.FC<SideDrawerProps> = ({ open, onClose, children }) => {
-  const { theme } = useThemeContext();
 
   return (
     <Drawer
